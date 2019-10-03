@@ -1,0 +1,71 @@
+.background {
+    background-image: url("/assets/images/babyPlants.jpg");
+    background-repeat: no-repeat;
+  height:100%;
+  background-position: center;
+  background-size: cover;
+    /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  max-width: 100%;
+    overflow-x: hidden;
+  }
+
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    background-color: darkolivegreen;
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+}
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background-image: url("/assets/images/jumboTron.jpg");
+    background-repeat: no-repeat;
+  height:100%;
+  background-position: center;
+  background-size: cover;
+    color:floralwhite;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+.navbar-dark {
+    background-color: darkolivegreen;
+}
+
+.page-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease-in;
+}
+
+.page-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.page-exit-active {
+    opacity: 0.01;
+    transform: translateX(100%);
+    transition: all 300ms ease-out;
+}
